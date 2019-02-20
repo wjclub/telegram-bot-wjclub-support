@@ -1,0 +1,25 @@
+start_msg: Hallo! Dieser Bot soll (noch) nicht normal benutzt werden.
+help_msg: Hi! /help ist noch nicht verfügbar
+
+menu_start_title: "WJClub Support - Start"
+menu_start_text: "Willkommen beim Support für Bots, Kanäle und Gruppen von @wjclub.\n\nDa der WJClub im Grunde nur aus Jan und Jonas besteht und wir beide nicht viel Zeit haben, wurde dieses Hilfesystem entwickelt.\n\n<b>Bitte klick unten auf ein Thema.</b>"
+
+menu_bot_down_title: "Ein Bot funktioniert nicht"
+menu_bot_down_text: "Bitte wähle den Bot aus, der nicht funktioniert:"
+
+menu_gabot_down_title: "Ein GroupAgreeBot ist kaput"
+menu_gabot_down_text: "<b>Ein GroupAgreeBot geht nicht</b>\n\nVon Zeit zu Zeit geht unser Umfragen-Bot schon mal kaputt. Das liegt hauptsächlich daran, dass zu viele Leute ihn benutzen. Dann regelt Telegram ihm die Möglichkeit zu antworten ab und wir müssen warten. Wenn er also mal wieder nicht antwortet, einfach mal warten. Sollte er länger tot sein, schreib uns einfach.\nMehr dazu <a href=\"https://t.me/WJClubFAQ/5\">here</a>."
+
+menu_speak_to_human_title: "Ich möchte mit einem Menschen sprechen"
+menu_speak_to_human_text: "Du möchtest also mit einem echten Menschen sprechen. Schreib dazu einfach etwas in diesen Chat. Es kann nur sein, dass wir etwas brauchen um dir zu antworten, aber damit musst du leben. Du bezahlst uns ja nicht für's antworten."
+
+menu_devlist_signup_title: "I want to be on @devlist"
+menu_devlist_signup_text: "<b>Rules to be enlisted on the DevList</b>\n\n1⃣ You have programmed at least ~ 3 bots and can name at least one as 
+a reference.\n\n2⃣ None of your work is illegal (especially piracy, child porn, etc.) or unfair to the Telegram community (bot nets, spam, fake 
+likes/members/views, censorship, etc.)\n\n3⃣ Your pricing is realistic and does not contain hidden fees. If you say you are going to work for 
+$10 per hour, you will only charge $10 per hour. If this changes, notify us, so we can change it on the list.\n\n\n<b>What do I need to 
+do?</b>\nPlease send us: Your name, if you are a single person or a group, your pricing, references (can be up to 3 total from bots over 
+channels to weblinks) and a single contact username.\n\n\nThis is how the finished post will look like:\n\n________________________\n👤 Your 
+Name (Country)\n\n💰 <b>Pricing:</b>\nStarting at X€ per hour (max. Y€ per hour)\n\nℹ️ <b>References:</b>\n@coolbot - Does xy 
+good\n@newschannel - Informations\n\n📮 <b>Contact:</b> @username\n________________________"
+

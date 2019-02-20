@@ -1,0 +1,26 @@
+{
+  "start": {
+    "buttons": [],
+    "linkedMenus": ["bot_down", "devlist_signup", "speak_to_human"]
+  },
+  "bot_down": {
+    "buttons": [],
+    "linkedMenus": ["gabot_down", "other_bot_down"]
+  },
+  "gabot_down": {
+    "buttons": [],
+    "linkedMenus": ["start"]
+  },
+  "other_bot_down": {
+    "buttons": [],
+    "linkedMenus": ["start"]
+  },
+  "devlist_signup": {
+    "buttons": [],
+    "linkedMenus": ["start"]
+  },
+  "speak_to_human": {
+    "buttons": [],
+    "linkedMenus": ["start"]
+  }
+}

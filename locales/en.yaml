@@ -1,0 +1,20 @@
+start_msg: Hi there! Normal chatting with this bot is not available (yet).
+help_msg: Hi there! This is an empty /help message
+
+menu_start_title: "WJClub Support - Start"
+menu_start_text: "You've reached the Support for bots, channels and chats made or curated by @wjclub.\n\nBecause WJClub is essentially just Jan and Jonas coding stuff in their spare free time, this automated help system is here to help you with the most common errors.\n\n<b>Please select a topic below.</b>"
+
+menu_bot_down_title: "A bot is not answering"
+menu_bot_down_text: "Please select which bot is not working:"
+
+menu_gabot_down_title: "A GroupAgreeBot does not work"
+menu_gabot_down_text: "<b>One of the GroupAgreeBots is not working:</b>\n\nOur beloved @GroupAgreeBot (and it's siblings) do have some serious issues and we don't have much time to fix them.\nIf it does not answer you right now, please just re-try later today.\n\nRead more <a href=\"https://t.me/WJClubFAQ/5\">here</a>."
+
+menu_other_bot_down_title: "Some other bot does not work"
+menu_other_bot_down_text: "From time to time a bot can stop answering / working. Why? Well, a bot is just another Telegram user (with special abilities, like those buttons below messages). But instead of a human, a program is chatting with you. This program needs to be run on some computer and can crash from time to time. If the bot does not answer for a long time, it may just not be running at the moment. In this case (unless it is a groupagreebot) just tell us about it."
+
+menu_speak_to_human_title: "I want to speak to a human!"
+menu_speak_to_human_text: "So you want to speak to a human. Then go ahead, just type something below. You might just have to wait a bit for an answer, because we don't always find the time to help you. Also, we don't speak more languages than English and German."
+
+menu_devlist_signup_title: "I want to be on @devlist"
+menu_devlist_signup_text: "<b>Rules to be enlisted on the DevList</b>\n\n1⃣ You have programmed at least ~ 3 bots and can name at least one as a reference.\n\n2⃣ None of your work is illegal (especially piracy, child porn, etc.) or unfair to the Telegram community (bot nets, spam, fake likes/members/views, censorship, etc.)\n\n3⃣ Your pricing is realistic and does not contain hidden fees. If you say you are going to work for $10 per hour, you will only charge $10 per hour. If this changes, notify us, so we can change it on the list.\n\n\n<b>What do I need to do?</b>\nPlease send us: Your name, if you are a single person or a group, your pricing, references (can be up to 3 total from bots over channels to weblinks) and a single contact username.\n\n\nThis is how the finished post will look like:\n\n________________________\n👤 Your Name (Country)\n\n💰 <b>Pricing:</b>\nStarting at X€ per hour (max. Y€ per hour)\n\nℹ️ <b>References:</b>\n@coolbot - Does xy good\n@newschannel - Informations\n\n📮 <b>Contact:</b> @username\n________________________"
