@@ -8,7 +8,7 @@ menu_bot_down_title: "A bot is not answering"
 menu_bot_down_text: "Please select which bot is not working:"
 
 menu_gabot_down_title: "A GroupAgreeBot does not work"
-menu_gabot_down_text: "<b>One of the GroupAgreeBots is not working:</b>\n\nOur beloved @GroupAgreeBot (and it's siblings) do have some serious issues and we don't have much time to fix them.\nIf it does not answer you right now, please just re-try later today.\n\nRead more <a href=\"https://t.me/WJClubFAQ/5\">here</a>."
+menu_gabot_down_text: "<b>One of the GroupAgreeBots is not working:</b>\n\nOur beloved @GroupAgreeBot (and it's siblings) do have some serious issues and we don't have much time to fix them.\nWe have curated a list of alternatives <a href=\"https://t.me/WJClubFAQ/8\">here</a>."
 
 menu_other_bot_down_title: "Some other bot does not work"
 menu_other_bot_down_text: "From time to time a bot can stop answering / working. Why? Well, a bot is just another Telegram user (with special abilities, like those buttons below messages). But instead of a human, a program is chatting with you. This program needs to be run on some computer and can crash from time to time. If the bot does not answer for a long time, it may just not be running at the moment. In this case (unless it is a groupagreebot) just tell us about it."

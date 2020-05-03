@@ -1,6 +1,7 @@
 const menus = require('./menus.json')
+const {getStatusForTelegram} = require('./simplemonitor-status.js')
 
-exports.getInline = (key, ctx) => {
+exports.getInline = async (key, ctx) => {
   const m = menus[key]
   const buttons = []
   Object.assign(buttons, m.buttons)
@@ -12,12 +13,16 @@ exports.getInline = (key, ctx) => {
     }])
   }
 
+  let statusText = '';
+  if (m.include_status) {
+    statusText = '\n' + await getStatusForTelegram();
+  }
   return {
     type: 'article',
     id: 'menu_'+key,
     title: ctx.i18n.t('menu_'+key+'_title'),
     input_message_content: {
-      message_text: ctx.i18n.t('menu_'+key+'_text'),
+      message_text: ctx.i18n.t('menu_'+key+'_text')+statusText,
       parse_mode: 'HTML',
       disable_web_page_preview: true
     },
@@ -27,7 +32,7 @@ exports.getInline = (key, ctx) => {
   }
 }
 
-exports.get = (key, ctx) => {
+exports.get = async (key, ctx) => {
   const m = menus[key]
   const buttons = []
   Object.assign(buttons, m.buttons)
@@ -38,8 +43,13 @@ exports.get = (key, ctx) => {
       callback_data: 'menu/'+val
     }])
   }
+
+  let statusText = '';
+  if (m.include_status) {
+    statusText = '\n' + await getStatusForTelegram();
+  }
   return {
-    text: ctx.i18n.t('menu_'+key+'_text'),
+    text: ctx.i18n.t('menu_'+key+'_text')+statusText,
     extra: {
       parse_mode: 'HTML',
       disable_web_page_preview: true,

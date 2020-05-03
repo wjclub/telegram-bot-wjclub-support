@@ -13,7 +13,8 @@
   },
   "other_bot_down": {
     "buttons": [],
-    "linkedMenus": ["start"]
+    "linkedMenus": ["start"],
+    "include_status": true
   },
   "devlist_signup": {
     "buttons": [],

@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "telegraf": "^3.27.1",
-    "telegraf-i18n": "^6.4.0"
+    "telegraf-i18n": "^6.4.0",
+    "node-fetch": "^2.6.0"
   }
 }
